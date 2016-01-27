@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SMS.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SMS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SMS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMS.exe" size="2216448">
+      <assemblyIdentity name="SMS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EdiTYthdTjwLhgZX0QyqtxUecI13fq9b+rz8UhcLQ1A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="images\23_target.png" size="10804">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vSC4tPC9lgZwPp5pTE/so5GnwkBpT8RaWs2DU04GnuY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\About_.jpg" size="16380">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IGZrV3GGQYz3e/hQIewQk0gyIfM7alOmgf2UsT6D5rI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\About_nab.jpg" size="24019">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NxqnLKRBom+WUgUD/gvwiG/cDqmwy8QXiWdIrzTJeTE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\About_ray.jpg" size="31204">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bQfEJjxdA4cz3BeJczNwfhOXe7eRhdiNF7xe8aiD7H0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\About_ron.jpg" size="26207">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ELEryT5GlWP9xMwC5X7lJQsi6HwEAiaqvHCAD+EFT70=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\adminSettings.png" size="6697">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NYG2oWlBRDj6GAmDE0JwQ5rRkDzEk9Xtzto99Vzcn1E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\back_about.jpg" size="72571">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hGkEcrOvq+Z7moj21B6LqRBZ7JYFqNHgnhEy/vi2ZQA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\back_class.jpg" size="82504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z7WtOTCK78AK5rAtajN6YPpqxOIuOznY0q7lcoPcoeM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\back_event.jpg" size="79983">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EkAaJqGTSw9QYX/OOz57DOiCF2u6wvy9j/9FW4T8vK4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\back_home.jpg" size="69359">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ptul9OyLoTC+8iAedX0rr2SEV8Lgz6GljhrXn5QAYt8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\back_subject.jpg" size="72846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GwWSkKu2XPYOiNp93DSik9ic786aOzreVXyfhVlQEu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\Back-to-School.jpg" size="117311">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TVCoOd5OLWI1iDvwEQf3Oq2QHxlG6ymQTXSFrXVOTOI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\contact.png" size="6005">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8OQoNSWoYucaQNCr1VEoM29X0mn9sQWStFwM8TY+Npw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\event.png" size="6503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FpjLJMYTjqcc/N68PdZJ9jvEFy7IXxjh/N2jzIBdjnY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\MainIcon.ico" size="192101">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OGysga3NJylRaEhC4HGmTz/PGajklm3wqKJV+W2HSfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\ok-icon.png" size="9890">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cCzrmIuGw7IQX0Rcf0DUDOUiA/9CN9XYJs5gc3ldvYA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\qqq.png" size="9568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x3dA29A0DjK7a7q9XnwLYTsui9IcLbWs/9h/uVapYrw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\school.png" size="9703">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fyNEWo/0oVcShkKdV1Jb6soxPf9SPnBqOtTVW5ivagA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\subject.png" size="4655">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4t13o5WouPUjHu0DfcYMiFiDacEE9pNBbMAjpbpKc90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\website.png" size="75377">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NbIlipd9zjt8XqxQEv9ulemvt3wlGqaJxkBanWsdgss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SMS.exe.config" size="332">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8zZAnyD+gxe8J74oUvO5tUzhxLTnxOveownA+18q86M=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
